@@ -1,0 +1,32 @@
+.contact-container {
+    padding: 20px;
+  }
+  
+  .contact-container h1 {
+    margin-bottom: 20px;
+  }
+  
+  .contact-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-container label {
+    margin-bottom: 10px;
+  }
+  
+  .contact-container input[type="text"],
+  .contact-container input[type="email"],
+  .contact-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-container input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }

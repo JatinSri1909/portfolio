@@ -1,0 +1,26 @@
+nav {
+  background-color: #333;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left h1 {
+  color: #f8f9fa;
+  font-family: 'Consolas', monospace;
+  font-weight: bold;
+}
+
+.nav-right a {
+  color: #f8f9fa;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 10px;
+  font-family: 'Consolas', monospace;
+}
+
+.nav-right a:hover {
+  color: #007bff;
+}
+

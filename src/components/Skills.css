@@ -1,0 +1,29 @@
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .skill-card {
+    flex: 1 0 30%; /* This will ensure that there are 3 items per row */
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .skill-card h2 {
+    margin: 10px 0;
+    font-size: 20px;
+  }
+  
+  .skill-logo {
+    width: 70px; /* adjust as needed */
+    height: 70px; /* adjust as needed */
+    margin-bottom: 10px;
+  }
